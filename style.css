@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Kalnia', serif;
+    background-color: #fee6d7;
+}
+div{
+    margin: auto;
+    padding: 20px;
+    width: fit-content;
+    text-align: center;
+    margin-top: 60px;  
+}
+div h1{
+    color: #333640;
+    font-size: 72px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+div h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: #474853;
+    margin-bottom: 30px;
+}
+div button{
+    font-size: 13px;
+    color: #6c8b8a;
+    background-color: white;
+    padding: 15px 25px;
+    border: 2px solid #a1c4bc;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.3s background-color ease;
+}
+div button:hover{
+    background-color: #a1c4bc;
+    cursor: pointer;
+}
+
+div #quote{
+    font-size: 20px;
+    padding-inline: 100px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 18px;
+}
+
+div #author{
+    font-size: 18px;
+    font-weight: 500;
+}
